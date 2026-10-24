@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "pstack",
+  "displayName": "pstack",
+  "version": "0.9.0",
+  "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+  "author": {
+    "name": "Lauren Tan",
+    "url": "https://github.com/poteto"
+  },
+  "homepage": "https://github.com/poteto/plugins/tree/main/pstack",
+  "repository": "https://github.com/poteto/plugins",
+  "license": "MIT",
+  "keywords": ["pstack", "poteto-mode", "workflow", "principles", "agent-style", "subagents", "unslop", "review", "planning"]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Tell the agent where pstack skills live, and load pstack's per-role model config (the equivalent of an always-applied rule).",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

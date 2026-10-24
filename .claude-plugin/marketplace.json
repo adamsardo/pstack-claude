@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pstack",
+  "owner": {
+    "name": "Lauren Tan",
+    "url": "https://github.com/poteto"
+  },
+  "metadata": {
+    "description": "pstack for Claude Code and Claude: rigorous agent workflows, principles, and review panels."
+  },
+  "plugins": [
+    {
+      "name": "pstack",
+      "source": "./plugins/pstack",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "version": "0.9.0",
+      "category": "development",
+      "tags": ["workflow", "principles", "review", "planning"]
+    }
+  ]
+}
