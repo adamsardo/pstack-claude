@@ -35,6 +35,8 @@ models are configurable too. type `/setup-pstack`. it detects the models you hav
 
 ## usage
 
+for a plain-english guide to when and why to use each part, see the [repo readme](../../README.md#when-and-why-to-use-each-part).
+
 use `/poteto-mode` at the start of a task. it reads your request, picks from a set of playbooks, and runs the other skills as the steps need them.
 
 ### just use `/poteto-mode`
